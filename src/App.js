@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+
 import "./App.css";
 import {
   Container,
@@ -13,6 +13,7 @@ import { FaSun, FaMoon, FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa
 import Header from "./Components/Header";
 import Profile from "./Components/Profile";
 import Social from "./Components/Social";
+
 
 function App() {
   const { colorMode, toggleColorMode } = useColorMode();
