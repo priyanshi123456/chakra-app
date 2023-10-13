@@ -7,10 +7,6 @@ import {
   Text,
   Button,
   Image,
-  borderRadius,
-  backgroundColor,
-  boxShadow,
-  boxSize,
 } from "@chakra-ui/react";
 import React from "react";
 
@@ -31,7 +27,7 @@ function Header() {
                     <Text fontSize="7xl" fontWeight="bold" bgGradient="linear(to-r, cyan.400, blue.500, purple.600)" bgClip='text' >Priyanshi jain</Text>
                     <Text color={isDark ? "gray.200" : "gray.500"}>working as a frontend developer</Text>
                     <Button mt={8} colorScheme="blue" 
-                    >Hire Me</Button>
+                    >click Me</Button>
 
                 </Box>
                 <Image alignSelf="center"borderRadius='full' mr={"50px"}

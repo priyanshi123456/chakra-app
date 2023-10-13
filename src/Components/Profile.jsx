@@ -4,7 +4,7 @@ import React from "react";
 function Profile() {
   return (
     <Flex width={"100%"} mt={"100px"}>
-      <Box alignself="center" ml={"200px"}>
+      <Box alignself="center" ml={"100px"} mt={"150px"}>
         <Heading fontWeight={"extrabold"} color={"cyan.500"} size={"4xl"}>
           1+
         </Heading>
@@ -21,11 +21,11 @@ function Profile() {
             rounded="xl"
             direction="column"
             mt={4}
-            bg="gray.100"
+            bg="pink.100"
             h="30vh"
             w="30vh"
             justify="flex-end"
-            _hover={{ bg: "pink.400" }}
+          
             
           >
             <Icon color="black" p="4" w="24" h="24" />
@@ -34,16 +34,16 @@ function Profile() {
             </Text>
           </Flex>
           <Flex
-          ml={"100px"}
+          ml={"60px"}
           
             rounded="xl"
             direction="column"
             mt={4}
-            bg="gray.100"
+            bg="teal.400"
             h="30vh"
             w="30vh"
             justify="flex-end"
-            _hover={{ bg: "teal.400" }}
+           
           >
             <Icon color="black" p="4" w="24" h="24" />
             <Text color="black" p="4" fontSize="xl" fontWeight="semibold">
@@ -51,16 +51,16 @@ function Profile() {
             </Text>
           </Flex>
           <Flex
-           ml={"100px"}
+           ml={"60px"}
           
             rounded="xl"
             direction="column"
             mt={4}
-            bg="gray.100"
+            bg= "green.400"
             h="30vh"
             w="30vh"
             justify="flex-end"
-            _hover={{ bg: "green.400" }}
+           
           >
             <Icon p="4" w="24" h="24" color="black" />
             <Text color="black" p="4" fontSize="xl" fontWeight="semibold">

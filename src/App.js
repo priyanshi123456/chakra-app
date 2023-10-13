@@ -8,11 +8,13 @@ import {
   IconButton,
   useColorMode,
   Spacer,
+  Image
 } from "@chakra-ui/react";
 import { FaSun, FaMoon, FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
 import Header from "./Components/Header";
 import Profile from "./Components/Profile";
 import Social from "./Components/Social";
+import Form from "./Components/Form";
 
 
 function App() {
@@ -23,8 +25,7 @@ function App() {
     <VStack p="5">
       <Flex w="100%">
         <Heading fontWeight="semibold" color="cyan.400">
-          i am head
-        </Heading>
+          <img style={{opacity:"0.1"}} height={"50px"} width={"70px"} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb2atm6d4jSdXA9AXz2Ku1V8LHWSCLSEKlbw&usqp=CAU" /></Heading>
         <Spacer></Spacer>
         <IconButton
           ml="99"
@@ -57,6 +58,12 @@ function App() {
       <Social/>
       <Profile/>
     </VStack>
+
+
+
+
+    // Uncomment the Form Component
+    // <Form/>
   );
 }
 
